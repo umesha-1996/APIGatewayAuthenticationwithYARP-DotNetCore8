@@ -1,0 +1,11 @@
+
+program.csadd (main project)
+
+builder.Services.AddAuthentication(BearerTokenDefaults.AuthenticationScheme)
+	.AddBearerToken();
+
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+
